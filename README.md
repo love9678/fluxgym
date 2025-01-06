@@ -126,6 +126,7 @@ docker compose up -d --build
 Open web browser and goto the IP address of the computer/VM: http://localhost:7860
 
 4.下載模型:
+
 pip install aria2
 
 cd /workspace/fluxgym/models-cn/unet
