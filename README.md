@@ -96,7 +96,7 @@ pip install -r requirements.txt
 2.最後，安裝 pytorch Nightly:
 
 ```
-pip install --pre torch torchvision torchaudio --index-url https://pypi.tuna.tsinghua.edu.cn/simple/whl/cu121
+pip install --pre torch torchvision torchaudio --index-url https://pypi.tuna.tsinghua.edu.cn/whl/cu121
 ```
 
 
