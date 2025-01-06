@@ -112,10 +112,6 @@ python app.py
 
 pip install aria2
 
-cd /workspace/fluxgym/models-cn/unet
-
-aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/flux1-dev.sft -o flux1-dev.sft
-
 cd /workspace/fluxgym-cn/models/clip
 
 aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/clip_l.safetensors -o clip_l.safetensors
