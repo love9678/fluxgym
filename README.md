@@ -58,7 +58,7 @@ https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/fluxgym
 First clone Fluxgym and kohya-ss/sd-scripts:
 
 ```
-git clone https://github.com/love9678/fluxgym-.git
+git clone https://github.com/love9678/fluxgym-cn.git
 cd /workspace/fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 ```
