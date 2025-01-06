@@ -1,5 +1,6 @@
 import os
 import sys
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 os.environ["HF_HUB_ENABLE_HF_TRANSFER"] = "1"
 os.environ['GRADIO_ANALYTICS_ENABLED'] = '0'
 sys.path.insert(0, os.getcwd())
