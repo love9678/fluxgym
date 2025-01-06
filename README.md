@@ -59,7 +59,7 @@ First clone Fluxgym and kohya-ss/sd-scripts:
 
 ```
 git clone https://github.com/love9678/fluxgym-cn.git
-cd /workspace/fluxgym
+cd /workspace/fluxgym-cn 
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 ```
 
@@ -82,14 +82,14 @@ source env/bin/activate
 現在轉到“sd-scripts”資料夾並將依賴項安裝到已啟動的環境:
 
 ```
-cd /workspace/fluxgym/sd-scripts
+cd /workspace/fluxgym-cn/sd-scripts
 pip install -r requirements.txt
 ```
 
 安裝應用程式依賴項:
 
 ```
-cd /workspace/fluxgym
+cd /workspace/fluxgym-cn 
 pip install -r requirements.txt
 ```
 
