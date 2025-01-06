@@ -111,7 +111,7 @@ python app.py
 First clone Fluxgym and kohya-ss/sd-scripts:
 
 ```
-git clone https://github.com/cocktailpeanut/fluxgym
+git clone https://github.com/cocktailpeanut/fluxgym-cn 
 cd fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 ```
