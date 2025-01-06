@@ -50,18 +50,10 @@ Here are people using Fluxgym to locally train Lora sharing their experience:
 https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/fluxgym
 
 
-# More Info
-
-To learn more, check out this X thread: https://x.com/cocktailpeanut/status/1832084951115972653
-
-# Install
-
-## 1. One-Click Install
-
-You can automatically install and launch everything locally with Pinokio 1-click launcher: https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/fluxgym
 
 
-## 2. 安裝
+
+## 1. 安裝
 
 First clone Fluxgym and kohya-ss/sd-scripts:
 
@@ -101,14 +93,14 @@ cd /workspace/fluxgym
 pip install -r requirements.txt
 ```
 
-最後，安裝 pytorch Nightly:
+2.最後，安裝 pytorch Nightly:
 
 ```
 pip install --pre torch torchvision torchaudio --index-url https://mirrors.aliyun.com/pytorch-wheels/whl/cu121
 ```
 
 
-# 開始
+# 3.開始
 
 python app.py
 
