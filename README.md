@@ -97,6 +97,7 @@ pip install -r requirements.txt
 
 ```
 pip install --pre torch torchvision torchaudio --index-url https://pypi.tuna.tsinghua.edu.cn/whl/cu121
+pip install --upgrade pip
 ```
 
 
