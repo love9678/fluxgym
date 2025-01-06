@@ -61,43 +61,24 @@ To learn more, check out this X thread: https://x.com/cocktailpeanut/status/1832
 You can automatically install and launch everything locally with Pinokio 1-click launcher: https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/fluxgym
 
 
-## 2. Install Manually
+## 2. 安裝
 
 First clone Fluxgym and kohya-ss/sd-scripts:
 
 ```
-git clone https://github.com/cocktailpeanut/fluxgym
-cd fluxgym
+git clone https://github.com/love9678/fluxgym-.git
+cd /workspace/fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 ```
 
-Your folder structure will look like this:
-
-```
-/fluxgym
-  app.py
-  requirements.txt
-  /sd-scripts
-```
-
-Now activate a venv from the root `fluxgym` folder:
-
-If you're on Windows:
-
-```
-python -m venv env
-env\Scripts\activate
-```
-
-If your're on Linux:
+Linux:
 
 ```
 python -m venv env
 source env/bin/activate
 ```
 
-This will create an `env` folder right below the `fluxgym` folder:
-
+這將在“fluxgym”資料夾正下方建立一個“env”資料夾：
 ```
 /fluxgym
   app.py
@@ -106,38 +87,31 @@ This will create an `env` folder right below the `fluxgym` folder:
   /env
 ```
 
-Now go to the `sd-scripts` folder and install dependencies to the activated environment:
+現在轉到“sd-scripts”資料夾並將依賴項安裝到已啟動的環境:
 
 ```
-cd sd-scripts
+cd /workspace/fluxgym/sd-scripts
 pip install -r requirements.txt
 ```
 
-Now come back to the root folder and install the app dependencies:
+安裝應用程式依賴項:
 
 ```
-cd ..
+cd /workspace/fluxgym
 pip install -r requirements.txt
 ```
 
-Finally, install pytorch Nightly:
+最後，安裝 pytorch Nightly:
 
 ```
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install --pre torch torchvision torchaudio --index-url https://mirrors.aliyun.com/pytorch-wheels/whl/cu121
 ```
 
 
-# Start
+# 開始
 
-Go back to the root `fluxgym` folder, with the venv activated, run:
-
-```
 python app.py
-```
 
-> Make sure to have the venv activated before running `python app.py`.
->
-> Windows: `env/Scripts/activate`
 > Linux: `source env/bin/activate`
 
 ## 3. Install via Docker
