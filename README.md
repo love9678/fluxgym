@@ -58,7 +58,7 @@ https://pinokio.computer/item?uri=https://github.com/cocktailpeanut/fluxgym
 First clone Fluxgym and kohya-ss/sd-scripts:
 
 ```
-git clone https://github.com/love9678/fluxgym-cn.git
+git clone https://github.com/love9678/fluxgym.git
 cd /workspace/fluxgym-cn 
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 ```
@@ -82,14 +82,14 @@ source env/bin/activate
 現在轉到“sd-scripts”資料夾並將依賴項安裝到已啟動的環境:
 
 ```
-cd /workspace/fluxgym-cn/sd-scripts
+cd /workspace/fluxgym/sd-scripts
 pip install -r requirements.txt
 ```
 
 安裝應用程式依賴項:
 
 ```
-cd /workspace/fluxgym-cn 
+cd /workspace/fluxgym 
 pip install -r requirements.txt
 ```
 
@@ -112,11 +112,11 @@ python app.py
 
 pip install aria2
 
-cd /workspace/fluxgym-cn/models/clip
+cd /workspace/fluxgym/models/clip
 
 aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/clip_l.safetensors -o clip_l.safetensors
 
-cd /workspace/fluxgym-cn/models-cn/clip
+cd /workspace/fluxgym-cn/models/clip
 
 aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/t5xxl_fp16.safetensors -o t5xxl_fp16.safetensors
 
