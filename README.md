@@ -59,7 +59,7 @@ First clone Fluxgym and kohya-ss/sd-scripts:
 
 ```
 git clone https://github.com/love9678/fluxgym.git
-cd /workspace/fluxgym-cn 
+cd /workspace/fluxgym
 git clone -b sd3 https://github.com/kohya-ss/sd-scripts
 ```
 
