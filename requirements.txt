@@ -1,6 +1,7 @@
 safetensors
 git+https://github.com/huggingface/diffusers.git
-gradio_logsview@https://huggingface.co/spaces/cocktailpeanut/gradio_logsview/resolve/main/gradio_logsview-0.0.17-py3-none-any.whl
+gradio_logsview@https://hf-mirror.com/kines9661/gradio_logsvie/resolve/main/gradio_logsview-0.0.17-py3-none-any.whl
+transformers
 transformers
 lycoris-lora==1.8.3
 flatten_json
