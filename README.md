@@ -125,6 +125,24 @@ docker compose up -d --build
 
 Open web browser and goto the IP address of the computer/VM: http://localhost:7860
 
+4.下載模型:
+pip install aria2
+
+cd /workspace/fluxgym/models-cn/unet
+aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/flux1-dev.sft -o flux1-dev.sft
+
+cd /workspace/fluxgym-cn/models/clip
+aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/clip_l.safetensors -o clip_l.safetensors
+
+cd /workspace/fluxgym-cn/models-cn/clip
+aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/t5xxl_fp16.safetensors -o t5xxl_fp16.safetensors
+
+cd /workspace/fluxgym-cn/models/vae
+aria2c -c -x 16 -s 16 -k 50M https://hf-mirror.com/kines9661/dww/resolve/main/ae.sft -o ae.sft
+
+
+
+
 # Usage
 
 The usage is pretty straightforward:
